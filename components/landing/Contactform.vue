@@ -14,7 +14,7 @@ onMounted(() => {
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
 
-    result.innerHTML = "Sending...";
+    result.innerHTML = "Enviando...";
 
     fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -37,7 +37,7 @@ onMounted(() => {
       })
       .catch((error) => {
         console.log(error);
-        result.innerHTML = "Something went wrong!";
+        result.innerHTML = "Algo deu errado!";
       })
       .then(function () {
         form.reset();
@@ -81,7 +81,7 @@ onMounted(() => {
       </div>
     </div>
     <div class="mb-5">
-      <label for="email_address" class="sr-only">Email Address</label
+      <label for="email_address" class="sr-only">Email</label
       ><input
         id="email_address"
         type="email"

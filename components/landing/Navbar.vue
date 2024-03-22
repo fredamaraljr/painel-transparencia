@@ -31,7 +31,7 @@ const open = ref(false);
           <span class="font-bold text-slate-800">Transparência</span
           >
         </a>
-        <div class="block lg:hidden">
+        <!-- <div class="block lg:hidden">
           <button @click="open = !open" class="text-gray-800">
             <svg
               fill="currentColor"
@@ -53,7 +53,7 @@ const open = ref(false);
               ></path>
             </svg>
           </button>
-        </div>
+        </div> -->
       </div>
       <nav
         class="w-full lg:w-auto mt-2 lg:flex lg:mt-0"
@@ -69,12 +69,12 @@ const open = ref(false);
             </a>
           </li>
         </ul>
-        <div class="lg:hidden flex items-center mt-3 gap-4">
+        <!-- <div class="lg:hidden flex items-center mt-3 gap-4">
           <LandingLink href="#" styleName="muted" block size="md"
             >Log in</LandingLink
           >
           <LandingLink href="#" size="md" block>Sign up</LandingLink>
-        </div>
+        </div> -->
       </nav>
       <div>
         <div class="hidden lg:flex items-center gap-4">
