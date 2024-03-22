@@ -19,7 +19,7 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
 })
 
-
+//https://imgbox.com/gallery/edit/yvJE4GiZcr/LVRF1qS2KKDT6Lt0
 </script>
 <template>
   <NuxtLayout>
