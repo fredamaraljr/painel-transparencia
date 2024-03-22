@@ -1,34 +1,57 @@
-# Nuxt Example
+# Nuxtship - Nuxt SAAS Starter Website Template
 
-Deploy your [Nuxt](https://nuxt.com) project to Vercel with zero configuration.
+Nuxtship is a free starter nuxt website template for saas, startups, marketing websites & landing pages. Built with Nuxt & TailwindCSS.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/nuxtjs&template=nuxtjs)
+This Free Template is sponsored by [Gr33nW33n](https://github.com/Gr33nW33n)
 
-_Live Example: https://nuxtjs-template.vercel.app_
+If you like my work please feel free to
 
-Look at the [Nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+<a href="https://www.paypal.com/paypalme/jakobaichmayr" target="_blank">
+  <img src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" alt="Donate with PayPal" width="260" />
+</a>
+
+## Live Demo
+
+**[https://nuxtship.netlify.app/](https://nuxtship.netlify.app/)**
+
+## Built with Nuxt 3 Minimal Starter
+
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn
-
 # npm
 npm install
 
 # pnpm
-pnpm install --shamefully-hoist
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
 ```
 
 ## Development Server
 
-Start the development server on http://localhost:3000
+Start the development server on `http://localhost:3000`:
 
 ```bash
+# npm
 npm run dev
+
+# pnpm
+pnpm run dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
 ```
 
 ## Production
@@ -36,13 +59,39 @@ npm run dev
 Build the application for production:
 
 ```bash
+# npm
 npm run build
+
+# pnpm
+pnpm run build
+
+# yarn
+yarn build
+
+# bun
+bun run build
 ```
 
 Locally preview production build:
 
 ```bash
+# npm
 npm run preview
+
+# pnpm
+pnpm run preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
 ```
 
-Checkout the [deployment documentation](https://nuxt.com/docs/getting-started/deployment#presets) for more information.
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Attributions
+
+Original Astroship Template: **[https://astroship.web3templates.com/](https://astroship.web3templates.com/)** from **[Web3Templates](https://web3templates.com/)**
+
+Forked from: **[https://github.com/surjithctly/astroship](https://github.com/surjithctly/astroship)**
