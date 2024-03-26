@@ -50,7 +50,7 @@ const team = [
         Construindo uma comunidade informada
       </h2>
       <p class="text-lg leading-relaxed text-slate-500">
-        Um estudante de pós-graduação em ciência e análise de dados, que se preocupa com a transparência e a acessibilidade das informações públicas. Acredita que a informação é um direito de todos e que a transparência é a base de uma sociedade justa e igualitária.
+        Um estudante de pós-graduação em ciência e análise de dados, que se preocupa com a transparência e a acessibilidade das informações públicas. Acredita que a informação é um direito de todes e que a transparência é a base de uma sociedade justa e igualitária.
       </p>
     </div>
     <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
