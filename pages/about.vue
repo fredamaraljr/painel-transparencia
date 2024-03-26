@@ -3,56 +3,54 @@ definePageMeta({
   layout: "landing",
 });
 
-const TeamImg1 = "https://source.unsplash.com/IF9TK5Uy-KI";
+const TeamImg1 = "https://images2.imgbox.com/e7/5c/6C8OhaoN_o.jpg";
 const TeamImg2 = "https://source.unsplash.com/iEEBWgY_6lA";
 const TeamImg3 = "https://source.unsplash.com/ZHvM3XIOHoE";
 
 const team = [
   {
-    name: "Janette Lynch",
-    title: "Senior Director",
+    name: "Frederico Amaral Júnior",
+    title: "CEO & Fundador",
     avatar: {
       src: TeamImg1,
       width: 480,
       height: 560,
     },
   },
-  {
-    name: "Marcell Ziemann",
-    title: "Principal Strategist",
-    avatar: {
-      src: TeamImg2,
-      width: 580,
-      height: 580,
-    },
-  },
-  {
-    name: "Robert Palmer",
-    title: "Marketing Engineer",
-    avatar: {
-      src: TeamImg3,
-      width: 580,
-      height: 580,
-    },
-  },
+  // {
+  //   name: "Marcell Ziemann",
+  //   title: "Principal Strategist",
+  //   avatar: {
+  //     src: TeamImg2,
+  //     width: 580,
+  //     height: 580,
+  //   },
+  // },
+  // {
+  //   name: "Robert Palmer",
+  //   title: "Marketing Engineer",
+  //   avatar: {
+  //     src: TeamImg3,
+  //     width: 580,
+  //     height: 580,
+  //   },
+  // },
 ];
 </script>
 
 <template>
   <LandingContainer>
     <LandingSectionhead>
-      <template v-slot:title>About</template>
-      <template v-slot:desc>We are a small passionate team.</template>
+      <template v-slot:title>Sobre</template>
+      <template v-slot:desc>Quem está por trás disso</template>
     </LandingSectionhead>
 
     <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
       <h2 class="font-bold text-3xl text-gray-800">
-        Empowering the world with Nuxt.
+        Construindo uma comunidade informada
       </h2>
       <p class="text-lg leading-relaxed text-slate-500">
-        We're a multi-cultural team from around the world! We come from diverse
-        backgrounds, bringing different personalities, experiences and skills to
-        the job. This is what makes our team so special.
+        Um estudante de pós-graduação em ciência e análise de dados, que se preocupa com a transparência e a acessibilidade das informações públicas. Acredita que a informação é um direito de todos e que a transparência é a base de uma sociedade justa e igualitária.
       </p>
     </div>
     <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">

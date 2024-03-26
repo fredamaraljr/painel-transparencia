@@ -9,12 +9,12 @@ const menuitems = [
     // path: "/pricing",
   },
   {
-    // title: "Sobre",
-    // path: "/about",
+    title: "Sobre",
+    path: "/about",
   },
   {
-    // title: "Contato",
-    // path: "/contact",
+    title: "Contato",
+    path: "/contact",
   },
 ];
 
