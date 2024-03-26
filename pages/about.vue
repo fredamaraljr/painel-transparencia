@@ -53,24 +53,27 @@ const team = [
         Um estudante de pós-graduação em ciência e análise de dados, que se preocupa com a transparência e a acessibilidade das informações públicas. Acredita que a informação é um direito de todes e que a transparência é a base de uma sociedade justa e igualitária.
       </p>
     </div>
-    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
-      <div v-for="item of team" class="group">
-        <div class="w-full aspect-square">
-          <img
-            :src="item.avatar.src"
-            :width="item.avatar.width"
-            :height="item.avatar.height"
-            format="avif"
-            alt="Team"
-            class="w-full h-full object-cover rounded transition group-hover:-translate-y-1 group-hover:shadow-xl"
-          />
-        </div>
+    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12 ">
+      <div class="md:col-start-2 md:col-end-3"> <!-- Definindo a posição da única div para ser centralizada -->
+        <div v-for="item of team" class="group text-center">
+          <div class="w-full aspect-square">
+            <img
+              :src="item.avatar.src"
+              :width="item.avatar.width"
+              :height="item.avatar.height"
+              format="avif"
+              alt="Team"
+              class="w-full h-full object-cover rounded transition group-hover:-translate-y-1 group-hover:shadow-xl"
+            />
+          </div>
 
-        <div class="mt-4 text-center">
-          <h2 class="text-lg text-gray-800">{{ item.name }}</h2>
-          <h3 class="text-sm text-slate-500">{{ item.title }}</h3>
+          <div class="mt-4">
+            <h2 class="text-lg text-gray-800">{{ item.name }}</h2>
+            <h3 class="text-sm text-slate-500">{{ item.title }}</h3>
+          </div>
         </div>
       </div>
+    </div>
       <!-- {
         team.map((item) => (
           <div class="group">
@@ -90,6 +93,6 @@ const team = [
           </div>
         ))
       } -->
-    </div>
+    
   </LandingContainer>
 </template>
