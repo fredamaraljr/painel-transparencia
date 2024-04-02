@@ -14,7 +14,7 @@
 
     <div>
       <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight">
-        Informação acessível para todes.
+        Informação acessível para a população.
       </h1>
       <p class="text-lg mt-4 text-slate-600 max-w-xl">
         O Painel da Transparência é um portal que traz dados sobre a administração pública de forma simples e fácil de entender.<wbr /> Com poucos cliques você ficará por dentro do que está acontecendo na sua cidade.

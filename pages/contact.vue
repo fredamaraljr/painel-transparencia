@@ -17,7 +17,7 @@ definePageMeta({
           Vamos construir uma comunidade informada!          
         </h2>
         <p class="text-lg leading-relaxed text-slate-500 mt-3">
-          Nossa plataforma ainda está em construção, mas já vai deixando teu contato para receber atualizações.	
+          Nossa plataforma ainda está em construção, mas já vai deixando seu contato para receber atualizações.	
         </p>
         <div class="mt-5">
           <!-- <div class="flex items-center mt-2 space-x-2 text-gray-600">
