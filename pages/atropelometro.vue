@@ -20,7 +20,7 @@ definePageMeta({
         "
       >
         <iframe
-          title="Dashboard Visualização de Dados"
+          title="Mortes no trânsito de São Paulo"
           frameborder="0"
           width="1200"
           height="675"
