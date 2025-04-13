@@ -5,8 +5,8 @@ const menuitems = [
     // path: "#",
   },
   {
-    // title: "Pricing",
-    // path: "/pricing",
+    title: "Atropelometro",
+    path: "/atropelometro",
   },
   {
     title: "Sobre",
@@ -28,8 +28,7 @@ const open = ref(false);
         <a href="/" class="text-lg"
           ><span class="font-bold text-slate-800">Painel</span
           ><span class="text-slate-500">da</span>
-          <span class="font-bold text-slate-800">Transparência</span
-          >
+          <span class="font-bold text-slate-800">Transparência</span>
         </a>
         <!-- <div class="block lg:hidden">
           <button @click="open = !open" class="text-gray-800">
